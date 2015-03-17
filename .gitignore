@@ -1,0 +1,8 @@
+# local file I have
+tasks.txt
+
+# binary file
+build/SLICTest
+
+# data files
+build/res/data/*
