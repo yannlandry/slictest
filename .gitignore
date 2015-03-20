@@ -4,5 +4,8 @@ tasks.txt
 # binary file
 build/SLICTest
 
+# processed files
+build/res/SLIC_*
+
 # data files
 build/res/data/*
