@@ -1,5 +1,6 @@
 // std
 #include <iostream>
+#include <fstream>
 
 // cv
 #include <opencv2/core/core.hpp>
@@ -40,7 +41,7 @@ int main(int argc, char* argv[]) {
 	/*/ Optionally, save the data to a file (uncomment if needed)
 	std::string filename("SLICgreatbarrierreef.dat");
 	std::string savepath("res/data/");	// the file with superpixel data will be saved with filename in filepath
-	segment.SaveSuperpixelLabels(klabels, width, height, filename, savepath);
+	segment.SaveSuperpixelLabels(superpixelData, width, height, filename, savepath);
 	//*/
 
 	// Draw the contours around the superpixels
